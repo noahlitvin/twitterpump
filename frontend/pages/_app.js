@@ -1,7 +1,7 @@
 import { ChakraProvider, ColorModeScript } from "@chakra-ui/react"
 import Fonts from "../lib/fonts"
 import theme from "../lib/theme"
-import './transition.css'
+import '../lib/transition.css'
 
 function MyApp({ Component, pageProps }) {
   return (

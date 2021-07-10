@@ -121,7 +121,7 @@ export default function Home() {
 <CSSTransition in={showExplainer} timeout={1000} classNames="transitioner">
 <div className="transitioner-inner explainer">
         <Container maxW="container.sm" py={8}>
-          <Text as="a" display="inline-block" href="#" onClick={() => setShowExplainer(!showExplainer)} textDecoration="underline" fontSize="sm" fontWeight="600" mb={8} transition="opacity 0.3s" _hover={{opacity: 0.8,}}>
+          <Text display="inline-block" onClick={() => setShowExplainer(!showExplainer)} textDecoration="underline" fontSize="sm" fontWeight="600" mb={8} transition="opacity 0.3s" _hover={{opacity: 0.8, cursor: 'pointer'}}>
             <ArrowBackIcon />Back
           </Text>
           <Grid templateColumns={["repeat(1, 1fr)", "repeat(1, 1fr)", "repeat(3, 1fr)"]} gap={8}>
@@ -172,7 +172,7 @@ export default function Home() {
               </LightMode>
             </Flex>
           </form>
-          <Text as="a" href="#" onClick={() => setShowExplainer(!showExplainer)} fontSize="sm" textDecoration="underline" opacity={0.66} pb={1} transition="opacity 0.3s" _hover={{opacity: 0.5,}}>
+          <Text onClick={() => setShowExplainer(!showExplainer) } fontSize="sm" textDecoration="underline" opacity={0.66} pb={1} transition="opacity 0.3s" _hover={{opacity: 0.5, cursor: 'pointer'}}>
             How does it work?
           </Text>
         </Container>
