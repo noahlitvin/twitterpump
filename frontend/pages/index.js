@@ -56,7 +56,6 @@ const sfcInterface = [
 ];
 const sfcAddress = "0xdd6FDBD6EdDE62C30aFB599A12C72B64c1DB495e"
 
-
 export default function Home() {
   const { colorMode, toggleColorMode } = useColorMode()
   const borderStyle = useColorModeValue("1px solid rgba(0,0,0,0.1)", "1px solid rgba(255,255,255,0.1)");
