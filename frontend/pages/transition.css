@@ -1,0 +1,45 @@
+.transitioner-inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width:  100%;
+}
+.transitioner-inner.explainer {
+  opacity: 0;
+}
+
+.transitioner-enter {
+  opacity: 0;
+  transform: translate(-50%,-42%) rotateX(-10deg) scale(0.99);
+  z-index: 1;
+}
+
+.transitioner-enter-active {
+  opacity: 1 !important;
+  transition: all 500ms;
+  transition-delay: 500ms;
+
+  transform: translate(-50%,-50%);
+  z-index: 1;
+}
+
+.transitioner-enter-done {
+  opacity: 1 !important;
+  transform: translate(-50%,-50%);
+  z-index: 1;
+}
+.transitioner-exit {
+  opacity: 1 !important;
+  transform: translate(-50%,-50%);
+}
+.transitioner-exit-active {
+  opacity: 0 !important;
+  transform: translate(-50%,-42%) rotateX(-10deg) scale(0.99);
+  transition: all 500ms;
+}
+
+.transitioner-exit-done {
+  opacity: 0;
+  transform: translate(-50%,-42%) rotateX(-10deg) scale(0.99);
+}

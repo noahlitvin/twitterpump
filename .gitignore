@@ -1,0 +1,8 @@
+artifacts/
+cache/
+.env
+node_modules/
+frontend/node_modules/
+.openzeppelin/
+.DS_Store
+frontend/.next
