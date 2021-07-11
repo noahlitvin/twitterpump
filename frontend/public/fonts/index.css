@@ -1,0 +1,16 @@
+/* latin */
+@font-face {
+  font-family: 'Bergen Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('./BergenMono-Bold.otf') format('otf');
+}
+/* latin */
+@font-face {
+  font-family: 'Bergen Mono';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./BergenMono-Regular.otf') format('otf');
+}

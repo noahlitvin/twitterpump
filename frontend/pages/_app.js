@@ -1,7 +1,8 @@
 import { ChakraProvider, ColorModeScript } from "@chakra-ui/react"
-import Fonts from "../lib/fonts"
 import theme from "../lib/theme"
+import "@fontsource/inter"
 import '../lib/styles.css'
+import '../public/fonts/index.css'
 
 if (typeof window !== "undefined") {
   window.addEventListener('load', (event) => {
@@ -14,7 +15,6 @@ function MyApp({ Component, pageProps }) {
     <>
     <div id="scrim" />
     <ChakraProvider theme={theme}>
-      <Fonts />
       <ColorModeScript initialColorMode="dark" />
       <Component {...pageProps} />
     </ChakraProvider>
