@@ -1,16 +1,12 @@
-/* latin */
 @font-face {
-  font-family: 'Bergen Mono';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url('./BergenMono-Bold.otf') format('otf');
+    font-family:"Bergen Mono";
+    src:url("BergenMono-Regular.woff2") format("woff2"),url("BergenMono-Regular.woff") format("woff"),url("BergenMono-Regular.otf") format("opentype");
+    font-style:normal;font-weight:400;
 }
-/* latin */
+
 @font-face {
-  font-family: 'Bergen Mono';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url('./BergenMono-Regular.otf') format('otf');
+    font-family:"Bergen Mono";
+    src:url("BergenMono-Bold.woff2") format("woff2"),url("BergenMono-Bold.woff") format("woff"),url("BergenMono-Bold.otf") format("opentype");
+    font-style:normal;font-weight:700;
 }
+        

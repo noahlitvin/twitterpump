@@ -126,20 +126,20 @@ export default function Home() {
           <Grid templateColumns={["repeat(1, 1fr)", "repeat(1, 1fr)", "repeat(3, 1fr)"]} gap={8}>
             <Box>
             <Box sx={{filter: colorMode === "light" && "invert(48%) sepia(79%) saturate(2476%) hue-rotate(190deg) brightness(118%) contrast(119%)"}} float={["left", "none"]} mr={[8,0]}>
-              <Image src="/Step1.svg" alt="twitterpump" width="80" height="80" />
+              <Image src="/images/Step1.svg" alt="twitterpump" width="80" height="80" />
               </Box>
               <Heading fontSize="lg" fontWeight="bold" letterSpacing="1px" mb={1} mt={[1,4]}>Check Stocks</Heading>
               <p>Monitor $AAPL, $TSLA, and $GOOGL prices.</p>
             </Box>
             <Box pl={[0,0,1]} >
             <Box sx={{filter: colorMode === "light" && "invert(48%) sepia(79%) saturate(2476%) hue-rotate(190deg) brightness(118%) contrast(119%)"}}  float={["left", "none"]} mr={[8,0]}>
-              <Image src="/Step2.svg" alt="twitterpump" width="80" height="80" />
+              <Image src="/images/Step2.svg" alt="twitterpump" width="80" height="80" />
               </Box>
               <Heading fontSize="lg" fontWeight="bold" letterSpacing="1px" mb={1} mt={[1,4]}>Pump Them</Heading>
               <p>If a stock is on a bull run, we tweet about it.</p>
             </Box>
             <Box><Box sx={{filter: colorMode === "light" && "invert(48%) sepia(79%) saturate(2476%) hue-rotate(190deg) brightness(118%) contrast(119%)"}}  float={["left", "none"]} mr={[8,0]}>
-              <Image src="/Step3.svg" alt="twitterpump" width="80" height="80" />
+              <Image src="/images/Step3.svg" alt="twitterpump" width="80" height="80" />
               </Box>
               <Heading fontSize="lg" fontWeight="bold" letterSpacing="1px" mb={1} mt={[1,4]}>Trigger Trades</Heading>
               <p>Traders and algorithms pick up the signal.</p>
@@ -154,7 +154,7 @@ export default function Home() {
 <div className="transitioner-inner feature">
         <Container maxW="container.lg" textAlign="center">
           <Box mb={4}>
-          {colorMode === "light" ? <Image src="/image_filled.svg" alt="twitterpump" width="123" height="90" /> : <Image src="/image.svg" alt="twitterpump" width="123" height="90" />}
+          {colorMode === "light" ? <Image src="/images/image_filled.svg" alt="twitterpump" width="123" height="90" /> : <Image src="/images/image.svg" alt="twitterpump" width="123" height="90" />}
           </Box>
           <Heading mb={3}>Pump tech stocks with twitter bots</Heading>
           <Text fontSize="xl" mb={8}>Fund the pool with ETH to power tweets about tech stock bull runs</Text>
