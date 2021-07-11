@@ -136,7 +136,7 @@ export default function Home() {
               <Image src="/images/Step2.svg" alt="twitterpump" width="80" height="80" />
               </Box>
               <Heading fontSize="lg" fontWeight="bold" letterSpacing="1px" mb={1} mt={[1,4]}>Pump Them</Heading>
-              <p>If a stock is on a bull run, we tweet about it.</p>
+              <p>If a stock is on a bull run, tweet about it.</p>
             </Box>
             <Box><Box sx={{filter: colorMode === "light" && "invert(48%) sepia(79%) saturate(2476%) hue-rotate(190deg) brightness(118%) contrast(119%)"}}  float={["left", "none"]} mr={[8,0]}>
               <Image src="/images/Step3.svg" alt="twitterpump" width="80" height="80" />
@@ -157,12 +157,12 @@ export default function Home() {
           {colorMode === "light" ? <Image src="/images/image_filled.svg" alt="twitterpump" width="123" height="90" /> : <Image src="/images/image.svg" alt="twitterpump" width="123" height="90" />}
           </Box>
           <Heading mb={3}>Pump tech stocks with twitter bots</Heading>
-          <Text fontSize="xl" mb={8}>Fund the pool with ETH to power tweets about tech stock bull runs</Text>
+          <Text fontSize="xl" mb={8}>Fund the pool with LINK to power tweets about tech stock bull runs</Text>
           <form onSubmit={handleSubmit}>
             <Flex justifyContent="center" mb={6}>
-              <NumberInput size="lg" maxW={48} defaultValue={.0001} min={0} step={.0001}>
+              <NumberInput size="lg" maxW={48} defaultValue={.1} min={0} step={.1}>
                 <NumberInputField onChange={event => setAmount(event.currentTarget.value)} />
-                <InputRightElement children={<Text pr={4}>ETH</Text>} />
+                <InputRightElement children={<Text pr={4}>LINK</Text>} />
               </NumberInput>
               <LightMode>
                 <Button colorScheme="brand" size="lg" type="submit" ml={4}>
