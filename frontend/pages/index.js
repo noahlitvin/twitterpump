@@ -97,7 +97,7 @@ export default function Home() {
       <Box borderBottom={borderStyle}>
         <Container maxW="container.lg">
         <Flex py={3}>
-          <Heading fontSize="2xl" mt={1}>
+          <Heading fontSize="2xl" sx={{transform: 'translateY(1px)'}}>
             <Text d="inline" color="brand.500">Twitter</Text>pump
           </Heading>
 
